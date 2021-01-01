@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Contact | Ads on Wheels</title>
+    <link href="style.css" rel="stylesheet"></link>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <nav class="navbar">
+        <img class="nav-logo" src="logo.png" alt="Ads on wheels" aria-placeholder="Ads on wheels" />
+      <ul class="nav-links">
+        <li class="nav-el">
+          <a href="homeIndex.html" target="_blank">Home</a>
+        </li>
+        <li class="nav-el">
+          <a href="contactIndex.html" target="_blank">Contact</a>
+        </li>
+        <li class="nav-el">
+          <a href="loginIndex.html" target="_blank">Login</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="container">
+      <section class="contact-section">
+        <h2 class="contact-caption">Whatever you need,</h2>
+        <h1 class="contact-heading">Hit us up!</h1>
+        <h3 class="heading-secondary">
+          Please reach out if your have any questions or have suggestions. Your feedback is valued!
+        </h3>
+
+        <form class="container form-container" action="post">
+            <label class="padding-left" for="Name">Name</label>
+            <input
+              class="input form-input"
+              type="text"
+              id="Name"
+              title="Name"
+              placeholder="Please enter your name!"
+              required
+            />
+
+            <label class="padding-left"for="Email">E-mail</label>
+            <input
+              class="input form-input"
+              type="email"
+              id="Email"
+              title="Email"
+              placeholder="Please enter an email"
+              required
+            />
+
+            <label class="padding-left" for="Number">Phone Number</label>
+            <input
+              class="input form-input"
+              type="tel"
+              id="Number"
+              title="Number"
+              placeholder="Please enter your Contact Number"
+              required
+            />
+
+            <label class="padding-left" for="Message">Message</label>
+            <textarea
+              rows = "7"
+              class="input form-input"
+              type="text"
+              id="Message"
+              title="Message"
+              placeholder="How may we help?"
+              required
+            ></textarea>
+
+            <input
+              class="submit"
+              type="submit"
+              id="Submit"
+              title="Submit"
+              placeholder="Submit Query"
+            
+        </form>
+
+      </div>
+
+      <footer class="footer">
+        <span class="copyright">Ads on wheels &copy; 2020</span>
+      </footer>
+  </body>
+</html>
